@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F86D4BE1C493C2000DB3A03 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F86D4BE1C493C2000DB3A03 /* COMP3025Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COMP3025Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F86D4C11C493C2000DB3A03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F86D4C31C493C2000DB3A03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F86D4C61C493C2000DB3A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		3F86D4B51C493C2000DB3A03 = {
 			isa = PBXGroup;
 			children = (
-				3F86D4C01C493C2000DB3A03 /* Quiz */,
+				3F86D4C01C493C2000DB3A03 /* COMP3025Demo */,
 				3F86D4BF1C493C2000DB3A03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		3F86D4BF1C493C2000DB3A03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F86D4BE1C493C2000DB3A03 /* Quiz.app */,
+				3F86D4BE1C493C2000DB3A03 /* COMP3025Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F86D4C01C493C2000DB3A03 /* Quiz */ = {
+		3F86D4C01C493C2000DB3A03 /* COMP3025Demo */ = {
 			isa = PBXGroup;
 			children = (
 				3F86D4C11C493C2000DB3A03 /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				3F86D4CA1C493C2000DB3A03 /* LaunchScreen.storyboard */,
 				3F86D4CD1C493C2000DB3A03 /* Info.plist */,
 			);
+			name = COMP3025Demo;
 			path = Quiz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F86D4BD1C493C2000DB3A03 /* Quiz */ = {
+		3F86D4BD1C493C2000DB3A03 /* COMP3025Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F86D4D01C493C2000DB3A03 /* Build configuration list for PBXNativeTarget "Quiz" */;
+			buildConfigurationList = 3F86D4D01C493C2000DB3A03 /* Build configuration list for PBXNativeTarget "COMP3025Demo" */;
 			buildPhases = (
 				3F86D4BA1C493C2000DB3A03 /* Sources */,
 				3F86D4BB1C493C2000DB3A03 /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = Quiz;
+			name = COMP3025Demo;
 			productName = Quiz;
-			productReference = 3F86D4BE1C493C2000DB3A03 /* Quiz.app */;
+			productReference = 3F86D4BE1C493C2000DB3A03 /* COMP3025Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F86D4B91C493C2000DB3A03 /* Build configuration list for PBXProject "Quiz" */;
+			buildConfigurationList = 3F86D4B91C493C2000DB3A03 /* Build configuration list for PBXProject "COMP3025Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F86D4BD1C493C2000DB3A03 /* Quiz */,
+				3F86D4BD1C493C2000DB3A03 /* COMP3025Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -250,7 +251,7 @@
 				INFOPLIST_FILE = Quiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.georgiancollege.test-project.Quiz";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = COMP3025Demo;
 			};
 			name = Debug;
 		};
@@ -261,14 +262,14 @@
 				INFOPLIST_FILE = Quiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.georgiancollege.test-project.Quiz";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = COMP3025Demo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F86D4B91C493C2000DB3A03 /* Build configuration list for PBXProject "Quiz" */ = {
+		3F86D4B91C493C2000DB3A03 /* Build configuration list for PBXProject "COMP3025Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F86D4CE1C493C2000DB3A03 /* Debug */,
@@ -277,7 +278,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F86D4D01C493C2000DB3A03 /* Build configuration list for PBXNativeTarget "Quiz" */ = {
+		3F86D4D01C493C2000DB3A03 /* Build configuration list for PBXNativeTarget "COMP3025Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F86D4D11C493C2000DB3A03 /* Debug */,
